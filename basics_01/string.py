@@ -44,7 +44,7 @@ list_to_string = ''.join(mobiles)
 #list_to_string = '_'.join(mobiles) example
 print(list_to_string)
 
-print(len(list_to_string)) # ye string ki length btata 
+print(len(list_to_string)) # ye string ki length btata hy
 
 
 # In Python, if you want to iterate over each letter in a string, and that string is stored as an element of a list, you can use a loop. Here's an example:
