@@ -50,3 +50,22 @@ print(my_dict) # {'name': 'Lieutenant', 'age': 80, 'country': 'Pakistan'}
 test5 = my_dict.pop("age")
 print(my_dict) # {'name': 'Lieutenant', 'country': 'Pakistan'}
 
+# dictionary ek object hy or hm object k andr b objects bna skty hen yani dic k andar dics
+my_2nd_dic = {"rollnum" : {"Ali" : 1 , "usman": 2 , "hamza" : 3},
+              "class&section" :{"five" : "A", "eight" : "D" , "Nine" :"B"}
+              }
+#itni bri dic me sy agr section D ko access krna hy to is tra kren gy :
+test6 =my_2nd_dic["class&section"]["eight"]
+print(test6)
+
+test7 = my_2nd_dic.clear()
+print("my_2nd_dic : ",my_2nd_dic) # my_2nd_dic :  {}
+
+# agr hmary pas sirf keys hn to hm value ko veriable me store krwa kr  keys ko alag sy value asign kr skty hen or new dic create kr skty hen
+keys = ["python" , "javascript" , "typescript"]
+new_value = "scripting language"
+
+new_dict = dict.fromkeys(keys , new_value)
+print(new_dict)
+# output
+# {'python': 'scripting language', 'javascript': 'scripting language', 'typescript': 'scripting language'}
