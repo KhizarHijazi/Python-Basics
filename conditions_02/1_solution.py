@@ -1,4 +1,4 @@
-# show the age status getting user input
+"""show the age status getting user input"""
 
 age = input("Enter your age :")
 age_in_int = int(age)
